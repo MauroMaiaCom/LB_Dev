@@ -31,21 +31,13 @@ class CreateSalesUseCase {
         }
 
 
-        /*
-        function retProduct(rout: string, sis0: string, sis1: string, sis2: number, err: string) {
-            return Api.post(`${rout}`, {
-                data: {
-                    name: `${sis0}`,
-                    marca: `${sis1}`,
-                    amount: sis2
-                }
-            }).catch(() => { throw new AppError(`${err}`) });
-        }
-        function postUserSales(rout: string, datan: string, datanone: string, datantwo: string, datantree: string, err: string) {
-            return Api.post(`${rout}`, { data: { user: `${datan}`, name: `${datanone}`, amount: `${datantwo}`, spots: `${datantree}` } }).catch(() => { throw new AppError(`${err}`) });
-        } */
-
         // Area de DEsenvolvimento------------------------
+
+
+
+
+
+
 
         // Validadno o Usuario-----------------------------
 
@@ -59,17 +51,11 @@ class CreateSalesUseCase {
 
         // Realizando a Venda---------------------
 
-        /*
-        // Retirando o Produto do estoque
-        const value = amount;
-        const alterprod = await retProduct("products/pharm/alter", `${name}`, `${marca}`, value, "Product Output 01 Problems!");
-        const alterone = alterprod.data;
-        console.log(alterone);
-        // Adicionando a venda ao usuario
-        const spotsProduct = prodctaqdata.spots;
-        console.log(spotsProduct);
-        const alterproductuser = await postUserSales("users/pharm/products", `${user}`, `${name}`, `${amount}`, `${spotsProduct}`, "Product Output User Problems!");
-        */
+
+
+
+
+
 
 
 

@@ -29,12 +29,6 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     });
 });
 
-/*
-app.get("/", (req, res) => { res.send("Users API") });
-app.get("/:id", (req, res) => {
-    res.json({ id: Number(req.params.id) })
-});
-*/
 
 
 app.listen(PORT, () => { console.log(`Users API is running from PORT: ${PORT}`) });

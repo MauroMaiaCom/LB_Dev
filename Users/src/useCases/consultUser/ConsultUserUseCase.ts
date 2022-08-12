@@ -30,19 +30,6 @@ class ConsultUserUseCase {
         });
         return spots;
 
-        //Chamar todas as vendas dele
-        /*
-        const sales = await client.sale.findMany({
-            where: {
-                user: {
-                    user
-                }
-
-            }
-        });
-
-        return [spots, sales]; */
-
     }
 
 }

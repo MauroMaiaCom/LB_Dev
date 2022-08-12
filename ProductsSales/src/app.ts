@@ -29,9 +29,5 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     });
 });
 
-/*
-app.get("/", (req, res) => { res.send("Products API") });
-*/
-
 
 app.listen(PORT, () => { console.log(`Users API is running from PORT: ${PORT}`) });
